@@ -1,0 +1,86 @@
+html {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 40px;
+ }
+
+strong {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+ }
+
+body {
+	background: #2195f2;
+}
+
+a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+ a:hover {
+ 	color: #1c78c1;
+ 	text-decoration: none;
+ }
+
+ul {
+	display: inline;
+    list-style-type: none;
+}
+
+.main_content{
+	max-width: 1272px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.column {
+	display: inline;
+	padding: 42px;
+	width: 43%;
+}
+
+.logo {
+	float: left;
+	padding: 0px;
+	padding-left: 42px;
+	padding-top: 84px;
+	width: 100%;
+}
+
+.about {
+	float: left;
+}
+
+.contact {
+	float: left;
+}
+
+@media (max-width: 1215px) {
+	body {
+		padding: 42px;
+	}
+
+	.main_content{
+		width: 100%;
+		margin: 0 auto;
+	}	
+
+	.column {
+	display: inline;
+	padding: 0px;
+	width: 100%;
+	}
+
+	.contact, .about {
+		margin-top: 42px;
+	}
+
+
+	.logo {
+		padding-top: 0px;
+	}
+}
